@@ -28,6 +28,7 @@ section {
 }
 .half-width img {
   width: 90%;
+  height: 95%;
 }
 #link-button {
   text-decoration: none;
@@ -40,7 +41,29 @@ section {
   color: aqua;
   font-weight: 800;
 }
-#top-banner{
-    background-image: url(needed-image/top-banner.png);
+#top-banner {
+  background-image: url(needed-image/top-banner.png);
+  background-repeat: no-repeat;
+}
+.second-div p {
+  font-size: x-large;
+}
+.second-div {
+  width: 50%;
+  padding-right: 5%;
+}
+#fb{
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+#middle-part{
+    background-image: url(needed-image/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
 }
