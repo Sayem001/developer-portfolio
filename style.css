@@ -1,19 +1,41 @@
-body{
-    font-family: 'Luxurious Roman', cursive;
+body {
+  font-family: "Luxurious Roman", cursive;
 }
-h1{
-    font-size: 50px;
-    font-weight: 400;
+h1 {
+  font-size: 50px;
+  font-weight: 400;
 }
-#my-name{
-    color: orange;
-    font-weight: 900;
+#my-name {
+  color: orange;
+  font-weight: 900;
 }
-#h3-tag{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+#h3-tag {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
 }
-#first-p{
-    font-size: larger;
-    font-size: 20px;
+#first-p {
+  font-size: larger;
+  font-size: 20px;
+}
+section {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+.half-width img {
+  width: 90%;
+}
+#link-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(76, 49, 197), rgb(30, 156, 194));
+  padding: 10px 30px;
+  border-radius: 8px;
+  font-size: xx-large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: aqua;
+  font-weight: 800;
 }
